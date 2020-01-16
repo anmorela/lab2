@@ -9,7 +9,7 @@ function initializePage() {
     $("a.thumbnail").click(projectClick);
     function projectClick(e) {
     	e.preventDefault();
-    	$(this).css("backgrounf-color", "#7fff00");
+    	$(this).css("background-color", "#7fff00");
     }
 
 }
